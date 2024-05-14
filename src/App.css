@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  flex-direction: column;
+  background-color: purple;
+}
+
+.weather-app-title {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px; 
+  padding: 10px; 
+}
+
+p {
+  text-align: center;
+  background: rgb(8, 8, 8);
+  color: white;
+  border-radius: 100px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0px;
+  text-align: center;
+  background: purple;
+  color: white;
+}
+
+img.weather-icon {
+  display: block;
+  margin: 0 auto;
+  background: black;
+  border-radius: 10px;
+}
